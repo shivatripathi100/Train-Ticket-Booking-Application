@@ -1,0 +1,56 @@
+### Purchase Ticket API
+
+POST http://localhost:8080/purchaseTicket
+Content-Type: application/json
+
+{
+    "from": "London",
+    "to": "France",
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "email": "jane@example.com",
+    "price": 20.0,
+    "seat": "A1", 
+    "section": "A" 
+}
+
+### Purchase Ticket for Section B
+
+POST http://localhost:8080/purchaseTicket
+Content-Type: application/json
+
+{
+    "from": "London",
+    "to": "France",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john@example.com",
+    "price": 20.0,
+    "seat": "B1", 
+    "section": "B" 
+}
+
+### Get Users and Seats for Section A
+
+GET http://localhost:8080/usersAndSeats/A
+
+### Get Users and Seats for Section B
+
+GET http://localhost:8080/usersAndSeats/B
+
+### Get Receipt Details by Email
+
+GET http://localhost:8080/receiptDetails/john@example.com
+
+### Delete Receipt Details by Email
+
+DELETE http://localhost:8080/removeUser/jane@example.com
+
+### Modify Receipt Details by Email
+
+PUT http://localhost:8080/modifySeat/jane@example.com
+Content-Type: application/json
+
+"B2"
+
+
