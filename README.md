@@ -1,27 +1,27 @@
-Description
+Description: 
 The project aims to provide a platform for purchasing tickets for London to France. It allows users to purchase tickets, view available seats, retrieve receipt details by email, remove users, and modify seats.
 
-Features
+Features: 
 Purchase Ticket: Users can purchase tickets for their desired destination.
 View Users and Seats: Users can view the list of users and their corresponding seats for a specific section.
 Retrieve Receipt Details: Users can retrieve receipt details by providing their email address.
 Remove User: Admins can remove users from the system.
 Modify Seat: Admins can modify the seat of a user.
 
-Technologies Used
+Technologies Used:
 Java
 Spring Boot
 RESTful APIs
 Maven
 
-Setup Instructions
+Setup Instructions: 
 Clone the repository: git clone <repository-url>
 Navigate to the project directory: cd cloudbeesproject
 Build the project: mvn clean install
 Run the application: mvn spring-boot:run
 Access the application at: http://localhost:8080
 
-Usage
+Usage:
 
 Purchase Ticket:
 Endpoint: POST /purchaseTicket
