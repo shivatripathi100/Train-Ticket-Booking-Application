@@ -1,5 +1,5 @@
 Description
-The project aims to provide a platform for purchasing tickets for various destinations. It allows users to purchase tickets, view available seats, retrieve receipt details by email, remove users, and modify seats.
+The project aims to provide a platform for purchasing tickets for London to France. It allows users to purchase tickets, view available seats, retrieve receipt details by email, remove users, and modify seats.
 
 Features
 Purchase Ticket: Users can purchase tickets for their desired destination.
